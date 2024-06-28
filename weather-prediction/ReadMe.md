@@ -1,6 +1,6 @@
-# Car Race Game
+# Weather Prediction
 
-Welcome to the Car Race Game! This project demonstrates the use of propositional logic and AI in a fun and interactive car racing game developed using TypeScript.
+Welcome to the Weather Prediction! 
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ Welcome to the Car Race Game! This project demonstrates the use of propositional
 
 ## Introduction
 
-Propositional logic deals with statements that can be either true or false. Logical connectives are used to combine these statements into more complex expressions. In this project, you'll learn about logical connectives such as Not (¬), And (∧), Or (∨), Implication (→), and Biconditional (↔) through a car race game simulation.
+We'll create a Bayesian Network to predict rain based on cloudiness and humidity.
 
 ## Getting Started
 
@@ -33,7 +33,7 @@ Before you begin, ensure you have Node.js and npm installed on your machine. You
 2. Navigate to the project directory:
 
    ```bash
-   cd car-race-game
+   cd weather-prediction
    ```
 
 3. Install the project dependencies:
@@ -79,18 +79,16 @@ npm run dev
 Here's a brief overview of the project structure:
 
 ```
-car-race-game/
+weather-prediction/
 │
 ├── src/
 │   ├── index.ts
-│   └── logic.ts
 ├── package.json
 └── tsconfig.json
 ```
 
 - **src/**: Contains the TypeScript source files.
-    - **index.ts**: The main entry point of the application.
-    - **logic.ts**: Contains the logic and rules for the car race game.
+    - **index.ts**: The main logic and entry point of the application.
 - **package.json**: Manages the project's dependencies and scripts.
 - **tsconfig.json**: Configures the TypeScript compiler options.
 
@@ -99,5 +97,3 @@ car-race-game/
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
-
-By following the instructions in this README, you'll be able to set up, build, and run the Car Race Game project on your local machine. Enjoy the game and happy coding!

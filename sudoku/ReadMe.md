@@ -102,8 +102,7 @@ sudoku/
 ```
 
 - **src/**: Contains the TypeScript source files.
-    - **index.ts**: The main entry point of the application.
-    - **logic.ts**: Contains the logic and rules for the game.
+    - **index.ts**: The main logic and entry point of the application.
 - **package.json**: Manages the project's dependencies and scripts.
 - **tsconfig.json**: Configures the TypeScript compiler options.
 

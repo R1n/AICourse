@@ -99,5 +99,3 @@ car-race-game/
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
-
-By following the instructions in this README, you'll be able to set up, build, and run the Car Race Game project on your local machine. Enjoy the game and happy coding!
